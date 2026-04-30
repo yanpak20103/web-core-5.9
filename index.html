@@ -28,11 +28,16 @@
                 <div class="input-row">
                     <div class="input-group">
                         <label for="email">Email</label>
-                        <input id="email" type="email" placeholder="example@mail.com">
+                        <input id="email" 
+                        type="email"
+                        placeholder="example@gmail.com" 
+                        pattern=".+@.+\.com" 
+                        title="Пожалуйста, введите корректный адрес @gmail.com" 
+                        required>
                     </div>
                     <div class="input-group">
                         <label for="phone">Phone</label>
-                        <input id="phone" type="tel" placeholder="+123456789">
+                        <input id="phone" type="tel" placeholder="+123456789" pattern="[0-9+]*" inputmode="tel" title="Разрешены только цифры и символ +"         >
                     </div>
                 </div>
                 <div class="investor-type">
