@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>iintoo</title>
+</head>
+<body>
+    <div class="container">
+        <img src="bg.jpg" class="bg" alt="Background">
+        <img src="logo.svg" class="logo" alt="iintoo logo">
+        <div class="square">
+            <div class="text">Get iintoo it today</div>
+            <div class="subtitle">There is no charge or obligation upon registration.</div>
+            <div class="btn-group">
+                <button class="btn-facebook">
+                    <img src="facebook.svg" class="btn-fblogo" alt="Facebook">
+                    <span>Register with Facebook</span>
+                </button>
+                <button class="btn-linkedin">
+                    <img src="linkedin.svg" class="btn-ldlogo" alt="LinkedIn">
+                    <span>Register with LinkedIn</span>
+                </button>
+            </div>
+            <div class="divider"><span>OR</span></div>
+            <form class="registration-form">
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="example@mail.com">
+                    </div>
+                    <div class="input-group">
+                        <label for="phone">Phone</label>
+                        <input id="phone" type="tel" placeholder="+123456789">
+                    </div>
+                </div>
+                <div class="investor-type">
+                    <h3>What type of investor are you?</h3>
+                    <div class="radio-group">
+                        <label><input type="radio" name="type" value="individual"> Individual</label>
+                        <label><input type="radio" name="type" value="business"> Business</label>
+                        <label><input type="radio" name="type" value="ira"> IRA</label>
+                        <label><input type="radio" name="type" value="trust"> Trust</label>
+                    </div>
+                    <div class="window-text">
+                        <textarea id="message" class="top-align-input" placeholder="I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common."></textarea>
+                    </div>
+                    <div class="checkbox">
+                        <label class="custom-checkbox">
+                             <input type="checkbox">
+                                <span class="checkmark"></span>
+                                    I agree to the terms and receiving notifications from iintoo View full terms
+                        </label>
+                    </div>
+                    <div id="createaccount">
+                        <button class="buttoncreate">Create Account</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

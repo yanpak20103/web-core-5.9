@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+body {
+    background-color: #EFF6FF;
+    font-family: "Barlow", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg {
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+    display: block;
+}
+
+.logo {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: auto;
+}
+
+.square {
+    width: 600px;
+    height: 800px;
+    background-color: #ffffff;
+}
+
+.text {
+    font-size: 25px;
+    padding: 60px 0 0 60px;
+    color: #7B8A92;
+}
+
+.subtitle {
+    font-size: 15px;
+    padding: 10px 0 0 60px;
+    opacity: 1;
+    color: #7B8A92;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.btn-facebook,
+.btn-linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 33px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+.btn-facebook {
+    background-color: #255A9B;
+}
+
+.btn-linkedin {
+    background-color: #0076B6;
+}
+
+.btn-fblogo {
+    width: 20px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.btn-ldlogo {
+    width: 18px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    color: #2A4A5C;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    opacity: 40%;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #2A4A5C;
+}
+
+.divider::before {
+    margin-right: 15px;
+}
+
+.divider::after {
+    margin-left: 15px;
+}
+
+.registration-form {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.input-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.input-group label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.investor-type p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+#phone {
+    opacity: 50%;
+    color: #AFAFAF;
+}
+
+#email {
+    opacity: 50%;
+    color: #AFAFAF;
+}
+
+.window-text {
+    display: flex;
+    width: 300px;
+    height: 80px;
+    background-color: #ffffff;
+    color: #2A4A5C;
+    font-size: 90%;
+    margin-top: 20px;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px #EEEEEE;
+}
+
+.checkbox {
+    display: flex;
+    margin-top: 30px;
+    font-size: 90%;
+}
+
+#message {
+    resize: none;
+    width: 300px;
+    height: 80px;
+    border: none;
+    outline: none;
+    opacity: 50%;
+}
+
+.buttoncreate {
+    width: 220px;
+    height: 40px;
+    color: white;
+    margin-top: 20px;
+    background-color: #3698FB;
+    border: none;
+}
