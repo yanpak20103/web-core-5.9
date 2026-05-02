@@ -94,7 +94,6 @@ body {
     display: flex;
     align-items: center;
     color: #2A4A5C;
-    margin: 20px 0;
     width: 80%;
     max-width: 500px;
     margin: 20px auto;
@@ -148,6 +147,14 @@ body {
     outline: none;
 }
 
+#email {
+    color: #AFAFAF;
+}
+
+#phone {
+    color: #AFAFAF;
+}
+
 .investor-type p {
     font-size: 14px;
     margin-bottom: 10px;
@@ -166,14 +173,6 @@ body {
     cursor: pointer;
 }
 
-#phone {
-    color: #AFAFAF;
-}
-
-#email {
-    color: #AFAFAF;
-}
-
 .window-text {
     display: flex;
     width: 300px;
@@ -187,12 +186,6 @@ body {
     box-shadow: 0 4px 20px #EEEEEE;
 }
 
-.checkbox {
-    display: flex;
-    margin-top: 30px;
-    font-size: 90%;
-}
-
 #message {
     resize: none;
     width: 300px;
@@ -200,6 +193,12 @@ body {
     border: none;
     outline: none;
     opacity: 50%;
+}
+
+.checkbox {
+    display: flex;
+    margin-top: 30px;
+    font-size: 90%;
 }
 
 .buttoncreate {
