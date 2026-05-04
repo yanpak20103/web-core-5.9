@@ -14,6 +14,13 @@ body {
     height: 100vh;
 }
 
+.image {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
 .bg {
     width: 600px;
     height: 800px;
@@ -23,11 +30,11 @@ body {
 
 .logo {
     position: absolute;
-    top: 12%;
-    left: 20%;
-    transform: translate(-50%, -50%);
+    top: 1%;
+    left: 5%;
     width: 120px;
-    height: auto;
+    height: 120px;
+    z-index: 10;
 }
 
 .square {
